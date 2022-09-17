@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import { Button, Container,Row } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "./LandingPage.css";
 
 const LandingPage = () => {
@@ -24,12 +24,12 @@ const LandingPage = () => {
               <p className="subtitle">One Safe place for all your notes.</p>
             </div>
             <div className='buttonContainer'>
-               <a href='/login'>
+               <Link to='/login'>
                 <Button size='lg' className='landingbutton'>Login</Button>
-               </a>
-               <a href='/register'>
+               </Link>
+               <Link to='/register'>
                 <Button size='lg' className='landingbutton' variant='outline-primary'>Signup</Button>
-               </a>
+               </Link>
             </div>
           </div>  
         </Row>
