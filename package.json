@@ -9,8 +9,7 @@
     "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm start\" \"npm run client\"",
     "data:import": "node backend/seeder",
-    "data:destroy": "node backend/seeder -d",
-    "heroku"
+    "data:destroy": "node backend/seeder -d"
   },
   "author": "",
   "license": "ISC",
