@@ -8,7 +8,7 @@ https://notesappp-mern.herokuapp.com/
 
 ## About
 
-It's NotesApp💻 in MERN where you can save your notes.It's CRUD application😁 where you can create, read, update and delete the notes✨.The user data and notes store in database MongoDB. Secure place❤ for your notes that is NotesApp.
+It's NotesApp💻 in MERN where you can save your notes.Along with CRUD application😁 where you can create, read, update and delete the notes✨.The user data and notes store in database MongoDB. Secure place❤ for your notes that is NotesApp.
 
 
 

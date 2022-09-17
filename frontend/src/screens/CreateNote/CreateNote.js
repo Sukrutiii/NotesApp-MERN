@@ -64,7 +64,7 @@ function CreateNote({  }) {
                 value={content}
                 placeholder="Enter the content"
                 rows={4}
-                
+                onChange={(e) => setContent(e.target.value)}
               />
             </Form.Group>
             {content && (
