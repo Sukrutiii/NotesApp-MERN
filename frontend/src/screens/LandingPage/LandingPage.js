@@ -25,10 +25,10 @@ const LandingPage = () => {
             </div>
             <div className='buttonContainer'>
                <Link to='/login'>
-                <Button size='lg' className='landingbutton'>Login</Button>
+                <Button size='lg' className='landingbutton' variant='outline-primary'>Login</Button>
                </Link>
                <Link to='/register'>
-                <Button size='lg' className='landingbutton' variant='outline-primary'>Signup</Button>
+                <Button size='lg' className='landingbutton' >Signup</Button>
                </Link>
             </div>
           </div>  
