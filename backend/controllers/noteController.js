@@ -1,4 +1,3 @@
-
 const Note = require("../models/noteModel");
 const asyncHandler = require("express-async-handler");
 
